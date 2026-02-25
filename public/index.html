@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Myth Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee:wght@400&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <main class="layout">
+      <section class="hero">
+        <p class="kicker">Agents League | Creative Apps</p>
+        <h1>Neon Myth Studio</h1>
+        <p class="lede">
+          Generate micro-stories, dialogue duels, and a visual styleboard in one click.
+        </p>
+      </section>
+
+      <section class="card form-card">
+        <form id="story-form">
+          <label>
+            Protagonist
+            <input id="protagonist" name="protagonist" maxlength="40" value="Rook Vega" />
+          </label>
+          <label>
+            Genre
+            <select id="genre" name="genre">
+              <option value="scifi">Sci-Fi</option>
+              <option value="fantasy">Fantasy</option>
+              <option value="noir">Noir</option>
+              <option value="cozy">Cozy</option>
+              <option value="surreal">Surreal</option>
+            </select>
+          </label>
+          <label>
+            Setting
+            <input id="setting" name="setting" maxlength="60" value="neon harbor" />
+          </label>
+          <label>
+            Signature Object
+            <input id="object" name="object" maxlength="40" value="clockwork key" />
+          </label>
+          <label>
+            Core Emotion
+            <input id="emotion" name="emotion" maxlength="25" value="wonder" />
+          </label>
+          <label>
+            Chaos Level <span id="chaos-value">5/10</span>
+            <input id="chaos" name="chaos" type="range" min="1" max="10" value="5" />
+          </label>
+          <div class="actions">
+            <button type="submit" class="primary">Generate Scene</button>
+            <button type="button" id="remix">Remix</button>
+            <button type="button" id="copy">Copy Markdown</button>
+            <button type="button" id="save-variant">Save Variant</button>
+            <button type="button" id="export-pack">Export Pack JSON</button>
+          </div>
+          <p id="status">Ready.</p>
+        </form>
+      </section>
+
+      <section class="card library-card">
+        <h2>Creator Vault</h2>
+        <p class="vault-note">
+          Save variants in your browser, compare with the current scene, and export creator packs.
+        </p>
+        <label>
+          Variant Label
+          <input id="variant-label" maxlength="48" placeholder="e.g. Trailer Cut A" />
+        </label>
+        <ul id="saved-list" class="saved-list"></ul>
+        <div class="actions">
+          <button type="button" id="load-selected">Load Selected</button>
+          <button type="button" id="delete-selected">Delete Selected</button>
+        </div>
+        <h3>Compare with Current</h3>
+        <p id="compare-summary" class="compare-summary">No saved variant selected.</p>
+        <pre id="compare-details">Select a saved variant to compare.</pre>
+      </section>
+
+      <section class="card output-card">
+        <h2 id="title">Your story appears here</h2>
+        <p id="hook"></p>
+
+        <h3>Three-Beat Arc</h3>
+        <ol id="beats"></ol>
+
+        <h3>Dialogue Duel</h3>
+        <ul id="dialogue"></ul>
+
+        <h3>Poster Prompt</h3>
+        <p id="poster"></p>
+
+        <h3>Palette</h3>
+        <div id="palette" class="palette"></div>
+
+        <h3>Sigil</h3>
+        <pre id="sigil"></pre>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "id": "2459172270",
+  "seedHint": "1771662986387",
+  "generatedAt": "2026-02-21T08:36:32.787Z",
+  "input": {
+    "protagonist": "Kaia Flux",
+    "setting": "mirror station under moonlight",
+    "object": "opal compass",
+    "emotion": "awe",
+    "genre": "surreal",
+    "chaos": 8
+  },
+  "title": "Marble of Opal Compass",
+  "hook": "Tonight, Kaia Flux enters the upside-down theater in mirror station under moonlight, hears a song hidden in static while chasing awe.",
+  "beats": [
+    "Kaia Flux discovers that the opal compass answers only to those who admit fear.",
+    "A tense alliance forms with Paper King, and the plan goes loud when chaos reaches 8/10.",
+    "The city has been rehearsing this night for years."
+  ],
+  "dialogue": [
+    "Kaia Flux: Every lock loves the right lie.",
+    "Paper King: Truth is expensive where I come from.",
+    "Kaia Flux: Then explain the map in my pocket.",
+    "Paper King: It was never your pocket. It was my warning.",
+    "Kaia Flux: One move left. We choose who this night belongs to.",
+    "Paper King: Then choose quickly."
+  ],
+  "posterPrompt": "Cinematic surreal poster of Kaia Flux and Paper King in mirror station under moonlight, featuring opal compass, color palette #eb921e, #d3c612, #3fc5ee, #1215ce, #ed5031, emotional tone: awe.",
+  "palette": [
+    "#eb921e",
+    "#d3c612",
+    "#3fc5ee",
+    "#1215ce",
+    "#ed5031"
+  ],
+  "sigil": " :x +++ x: \n##.:...:.##\n xx     xx \n# +:   :+ #\n #: . . :# \n x #:#:# x \n :  . .  : \n+ #x# #x# +\n.x . # . x.\nxxx +++ xxx\n#:+##x##+:#",
+  "markdown": "# Marble of Opal Compass\n\n**Hook:** Tonight, Kaia Flux enters the upside-down theater in mirror station under moonlight, hears a song hidden in static while chasing awe.\n\n## Three-Beat Arc\n1. Kaia Flux discovers that the opal compass answers only to those who admit fear.\n2. A tense alliance forms with Paper King, and the plan goes loud when chaos reaches 8/10.\n3. The city has been rehearsing this night for years.\n\n## Dialogue Duel\n- Kaia Flux: Every lock loves the right lie.\n- Paper King: Truth is expensive where I come from.\n- Kaia Flux: Then explain the map in my pocket.\n- Paper King: It was never your pocket. It was my warning.\n- Kaia Flux: One move left. We choose who this night belongs to.\n- Paper King: Then choose quickly.\n\n## Poster Prompt\nCinematic surreal poster of Kaia Flux and Paper King in mirror station under moonlight, featuring opal compass, color palette #eb921e, #d3c612, #3fc5ee, #1215ce, #ed5031, emotional tone: awe.\n\n## Palette\n- #eb921e\n- #d3c612\n- #3fc5ee\n- #1215ce\n- #ed5031\n\n## Sigil\n```txt\n :x +++ x: \n##.:...:.##\n xx     xx \n# +:   :+ #\n #: . . :# \n x #:#:# x \n :  . .  : \n+ #x# #x# +\n.x . # . x.\nxxx +++ xxx\n#:+##x##+:#\n```",
+  "socialPost": "New drop: Marble of Opal Compass\nTonight, Kaia Flux enters the upside-down theater in mirror station under moonlight, hears a song hidden in static while chasing awe.\nMood colors: #eb921e #d3c612 #3fc5ee #1215ce #ed5031\n#NeonMythStudio #AgentsLeague #CreativeWriting",
+  "productionChecklist": [
+    "Create one hero image with the poster prompt and palette.",
+    "Record a 30-60 second narration of the hook and beat arc.",
+    "Publish markdown as devlog snippet.",
+    "Share one remix variant for audience vote."
+  ]
+}

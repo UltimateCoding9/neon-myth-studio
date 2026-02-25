@@ -1,0 +1,27 @@
+{
+  "name": "neon-myth-studio",
+  "version": "1.0.0",
+  "description": "Creative app starter project for Agents League",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "cli": "node ./bin/neon-myth-cli.js",
+    "mcp": "node ./mcp/server.js",
+    "demo:video": "node ./scripts/record-demo.mjs",
+    "demo:screens": "node ./scripts/capture-screenshots.mjs"
+  },
+  "bin": {
+    "neon-myth": "./bin/neon-myth-cli.js"
+  },
+  "keywords": [
+    "creative-app",
+    "agents-league",
+    "story-generator"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "^1.58.2"
+  }
+}
