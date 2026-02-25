@@ -62,7 +62,7 @@ N/A
 - [x] My project meets the track-specific challenge requirements
 - [x] My repository includes a comprehensive README.md with setup instructions
 - [x] My code does not contain hardcoded API keys or secrets
-- [ ] I have included demo materials (video or screenshots) with public links
+- [x] I have included demo materials (video or screenshots) with public links
 - [x] My project is my own work with proper attribution for any third-party code
 - [x] I agree to the Code of Conduct
 - [x] I have read and agree to the Disclaimer
@@ -96,7 +96,7 @@ N/A
 
 ## Contact Information (optional)
 
-`YOUR_EMAIL_OR_LINKEDIN`
+`koltman.a@gmail.com`
 
 ## Country/Region (required for prize eligibility verification)
 
