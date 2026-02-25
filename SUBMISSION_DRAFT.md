@@ -100,7 +100,7 @@ N/A
 
 ## Country/Region (required for prize eligibility verification)
 
-`YOUR_COUNTRY_OR_REGION`
+`Switzerland`
 
 ## Final Pre-Submit Notes (not part of the issue form)
 
