@@ -15,11 +15,11 @@ Neon Myth Studio
 
 ## GitHub Username
 
-`@YOUR_USERNAME`
+`@UltimateCoding9`
 
 ## Repository URL
 
-`https://github.com/YOUR_USERNAME/neon-myth-studio`
+`https://github.com/UltimateCoding9/neon-myth-studio`
 
 ## Project Description (250 words max)
 
@@ -32,7 +32,8 @@ The app was built with GitHub Copilot-assisted workflows for ideation, refactori
 ## Demo Video or Screenshots
 
 - Demo Video: `https://youtu.be/YOUR_VIDEO_ID`
-- Screenshots: `https://github.com/YOUR_USERNAME/neon-myth-studio/tree/main/docs/screenshots`
+- Demo Video (GitHub file fallback): `https://github.com/UltimateCoding9/neon-myth-studio/blob/main/docs/demo/neon-myth-demo.mp4`
+- Screenshots: `https://github.com/UltimateCoding9/neon-myth-studio/tree/main/docs/screenshots`
 - Live Demo (optional): `https://YOUR_DEMO_URL`
 
 ## Primary Programming Language
